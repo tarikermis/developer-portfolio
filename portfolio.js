@@ -27,22 +27,15 @@ export const skillsSection = {
   subTitle:
     "Tackling Digital Challenges with Innovative Solutions. Whether it's a cutting-edge Webapp, a dynamic Webshop, a user-friendly Mobile App, or a robust Blockchain Solution, I am ready to bring your vision to life.",
   skills: [
-    emoji(
-      "⚡ Crafting Interactive Full-Stack Applications, Mobile Apps & Webshops Customized to Your Specific Needs."
-    ),
-    emoji(
-      "⚡ Developing and Implementing Blockchain Applications with Advanced Smart-Contract Integration."
-    ),
-    emoji(
-      "⚡ Building Progressive Web Applications (PWAs) using both Traditional and Single Page Application (SPA) frameworks."
-    ),
-    emoji(
-      "⚡ Seamless Integration of Third-Party Services like Azure, Firebase, AWS, and Digital Ocean."
-    ),
-    emoji("⚡ Optimizing for Search Engines with Proven SEO Strategies."),
-    emoji(
-      "⚡ Providing Bespoke Solutions Tailored to Unique Requirements. Let's Discuss Your Project!"
-    ),
+    "⚡ Crafting Interactive Full-Stack Applications, Mobile Apps & Webshops Customized to Your Specific Needs.",
+
+    "⚡ Developing and Implementing Blockchain Applications with Advanced Smart-Contract Integration.",
+
+    "⚡ Building Progressive Web Applications (PWAs) using both Traditional and Single Page Application (SPA) frameworks.",
+    "⚡ Seamless Integration of Third-Party Services like Azure, Firebase, AWS, and Digital Ocean.",
+    "⚡ Optimizing for Search Engines with Proven SEO Strategies.",
+
+    "⚡ Providing Bespoke Solutions Tailored to Unique Requirements. Let's Discuss Your Project!",
   ],
 
   softwareSkills: [

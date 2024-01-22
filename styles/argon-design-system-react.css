@@ -20458,6 +20458,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   will-change: transform;
   background-color: inherit;
   transition: all 0.15s ease;
+  min-height: 100px;
 }
 @media (prefers-reduced-motion: reduce) {
   .headroom {

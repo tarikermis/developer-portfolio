@@ -2,9 +2,11 @@ body > div:first-child {
   overflow-x: hidden;
 }
 
-.experience-section .card {
-  min-height: 720px;
-  margin-bottom: 2em;
+@media screen and (min-width: 768px) {
+  .experience-section .card {
+    min-height: 720px;
+    margin-bottom: 2em;
+  }
 }
 
 .separator {
