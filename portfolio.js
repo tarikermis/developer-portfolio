@@ -1,44 +1,48 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-  name: 'Tarik "Fujin" Ermis',
-  title: "Greetings, I'm Tarik",
+  name: "Tarik Ermis",
+  title: "Hello, I'm Tarik",
   subtitle:
-    "a passionate Full Stack Web Developer, Mobile App Developer and Blockchain Developer",
+    "Co-Founder of n3tz | Full Stack Developer | Mobile App & Blockchain Expert",
   description:
-    "having an experience of building all kinds of Applications with JavaScript / Reactjs / Vuejs / Nodejs / React-Native / Solidity / Python / PHP and many other cool libraries and frameworks.",
+    "As the co-founder of n3tz and an experienced developer, I've honed my skills in building diverse applications across various domains. My expertise lies in JavaScript, React.js, Vue.js, Node.js, React Native, Solidity, Python, and a range of innovative libraries and frameworks. My journey is fueled by a passion for developing advanced digital solutions and leading teams to drive technological innovation.",
   resumeLink: "https://techrez.io/resume/tarik-ermis",
 };
 
 export const openSource = {
-  githubUserName: "xfujin",
+  githubUserName: "tarikermis",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-  twitter: "https://twitter.com/fujin74",
-  github: "https://github.com/xfujin",
+  twitter: "https://twitter.com/n3tz_io",
+  github: "https://github.com/tarikermis",
   linkedin: "https://www.linkedin.com/in/tarikermis",
 };
 
 export const skillsSection = {
-  title: "Provided Services",
+  title: "What I offer",
   subTitle:
-    "No Mountain is too high to climb. No matter if you want a Webapp, Webshop, Mobile App or even a Blockchain Solution, I will bring it to life.",
+    "Tackling Digital Challenges with Innovative Solutions. Whether it's a cutting-edge Webapp, a dynamic Webshop, a user-friendly Mobile App, or a robust Blockchain Solution, I am ready to bring your vision to life.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Full-Stack-Applications, Mobile Applications & Webshops tailored to your needs"
+      "⚡ Crafting Interactive Full-Stack Applications, Mobile Apps & Webshops Customized to Your Specific Needs."
     ),
     emoji(
-      "⚡ Setup and Development of Blockchain Applications with Smart-Contract Integration"
+      "⚡ Developing and Implementing Blockchain Applications with Advanced Smart-Contract Integration."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase / AWS / Digital Ocean"
+      "⚡ Building Progressive Web Applications (PWAs) using both Traditional and Single Page Application (SPA) frameworks."
     ),
-    emoji("⚡ Search Engine Optimization ( SEO )"),
-    emoji("⚡ And Much More! Contact me for Custom Individualized Solutions"),
+    emoji(
+      "⚡ Seamless Integration of Third-Party Services like Azure, Firebase, AWS, and Digital Ocean."
+    ),
+    emoji("⚡ Optimizing for Search Engines with Proven SEO Strategies."),
+    emoji(
+      "⚡ Providing Bespoke Solutions Tailored to Unique Requirements. Let's Discuss Your Project!"
+    ),
   ],
 
   softwareSkills: [
@@ -127,25 +131,105 @@ export const skillsSection = {
       skillName: "docker",
       fontAwesomeClassname: "logos:docker-icon",
     },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "logos:angular-icon",
+    },
+    {
+      skillName: "redux",
+      fontAwesomeClassname: "logos:redux",
+    },
+    {
+      skillName: "nestjs",
+      fontAwesomeClassname: "logos:nestjs",
+    },
+    {
+      skillName: "webpack",
+      fontAwesomeClassname: "logos:webpack",
+    },
+    {
+      skillName: "babel",
+      fontAwesomeClassname: "logos:babel",
+    },
+    {
+      skillName: "jest",
+      fontAwesomeClassname: "logos:jest",
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "logos:npm",
+    },
+    {
+      skillName: "yarn",
+      fontAwesomeClassname: "logos:yarn",
+    },
+    {
+      skillName: "graphql",
+      fontAwesomeClassname: "logos:graphql",
+    },
+    {
+      skillName: "terraform",
+      fontAwesomeClassname: "logos:terraform",
+    },
+    {
+      skillName: "kubernetes",
+      fontAwesomeClassname: "logos:kubernetes",
+    },
+    {
+      skillName: "azure",
+      fontAwesomeClassname: "logos:microsoft-azure",
+    },
+    {
+      skillName: "gcp",
+      fontAwesomeClassname: "logos:google-cloud",
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "logos:php",
+    },
+    {
+      skillName: "digital-ocean",
+      fontAwesomeClassname: "logos:digital-ocean",
+    },
+    {
+      skillName: "express",
+      fontAwesomeClassname: "logos:express",
+    },
+    {
+      skillName: "postgreSQL",
+      fontAwesomeClassname: "logos:postgresql",
+    },
+    {
+      skillName: "mysql",
+      fontAwesomeClassname: "logos:mysql",
+    },
+    {
+      skillName: "grafana",
+      fontAwesomeClassname: "logos:grafana",
+    },
   ],
 };
 
 export const SkillBars = [
   {
     Stack: "Frontend/Design",
-    progressPercentage: "95",
+    progressPercentage: "99",
   },
   {
     Stack: "Backend",
-    progressPercentage: "90",
+    progressPercentage: "95",
   },
   {
     Stack: "Programming",
     progressPercentage: "99",
   },
   {
+    Stack: "Mobile Apps",
+    progressPercentage: "85",
+  },
+  {
     Stack: "Blockchain / Smart Contracts",
-    progressPercentage: "80",
+    progressPercentage: "85",
   },
 ];
 
@@ -166,15 +250,29 @@ export const educationInfo = [
 export const experience = [
   {
     role: "Lead Developer",
+    company: "elunic AG",
+    companylogo: "/img/icons/common/elunic.png",
+    date: "Apr 2023 - Present",
+    descBullets: [
+      "Developed software solutions in Angular to meet specific client requirements.",
+      "Managed multiple projects, customizing in-house products for client needs.",
+      "Conducted code reviews for quality assurance.",
+      "Managed tasks/tickets for project execution using SCRUM/Agile methodologies.",
+      "Facilitated direct client interactions for requirement gathering and solution presentation.",
+      "Advanced system architecture and development processes.",
+    ],
+  },
+  {
+    role: "Lead Developer",
     company: "LendeXe Finance",
     companylogo: "/img/icons/common/lendexe.png",
-    date: "Mar 2022 – present",
+    date: "Mar 2022 – Mar 2023",
     descBullets: [
-      "planning and implementing the Smart Contract Code of the Protocol using Solidity",
-      "creating pixel perfect Web3 focused User Interfaces in React.js",
-      "implementing and maintaining a Web3 focused Backend + API using Express.js & MongoDB",
-      "implementing automation tools and chatbots via Python & JavaScript",
-      "planning and maintaining DevOps",
+      "Developed and maintained Smart Contract Code using Solidity for the protocol.",
+      "Designed and implemented Web3 focused User Interfaces in React.js.",
+      "Managed a Web3 oriented Backend + API using Express.js & MongoDB.",
+      "Created automation tools and chatbots utilizing Python & JavaScript.",
+      "Oversaw DevOps planning and maintenance, ensuring efficient workflows.",
     ],
   },
   {
@@ -183,11 +281,11 @@ export const experience = [
     companylogo: "/img/icons/common/integr8.webp",
     date: "Aug 2021 – Mar 2022",
     descBullets: [
-      "full stack mobile apps running on React Native",
-      "implementing automation tools via Python",
-      "integrating and managing cloud apps on Microsoft Azure / AWS",
-      "machine Learning Chatbot implementation in RASA / BotKit",
-      "full stack web apps in Vue.Js, Nuxt.Js, Express.Js and MongoDB",
+      "Developed full-stack mobile applications using React Native.",
+      "Implemented automation tools with Python.",
+      "Integrated and managed cloud applications on Microsoft Azure and AWS.",
+      "Implemented machine learning chatbots with RASA/BotKit.",
+      "Built full-stack web applications with Vue.js, Nuxt.js, Express.js, and MongoDB.",
     ],
   },
   {
@@ -196,12 +294,12 @@ export const experience = [
     companylogo: "/img/icons/common/n4.jpg",
     date: "May 2017 – May 2018",
     descBullets: [
-      "Fully responsive React.Js front-ends",
-      "Rest-API integration",
-      "performant and scalable backends in Express.Js",
-      "serverside-rendering with React-Redux",
-      "setting up and integrating PostgreSQL / MySQL Databases",
-      "automated testing and deployment with gitlab-ci and Docker / Kubernetes",
+      "Developed fully responsive front-ends with React.js.",
+      "Integrated Rest-APIs for enhanced functionality.",
+      "Built performant backends with Express.js.",
+      "Implemented server-side rendering with React-Redux.",
+      "Set up and integrated PostgreSQL/MySQL databases.",
+      "Automated testing and deployment using GitLab-CI with Docker/Kubernetes.",
     ],
   },
   {
@@ -209,7 +307,7 @@ export const experience = [
     company: "SUMITS Deutschland GmbH",
     companylogo: "/img/icons/common/sumits.jfif",
     date: "Aug 2016 - Mar 2018",
-    desc: "Full Management of Websites created in Wordpress, involving the creation, design, deployment and developing own plugins.",
+    desc: "Managed full lifecycle of Wordpress websites, including creation, design, deployment, and plugin development.",
   },
 ];
 
@@ -242,6 +340,11 @@ export const projects = [
 ];
 
 export const feedbacks = [
+  {
+    name: "Statement Clo. - CEO",
+    feedback:
+      "Tarik's expertise in web development has been instrumental in elevating our brand's online presence. His ability to blend innovative design with functional efficiency resulted in a website that not only looks fantastic but also performs exceptionally. His dedication to our project and attention to detail did not go unnoticed. We're grateful for Tarik's contribution to our digital success.",
+  },
   {
     name: "OdinBoost, Inc. - CEO",
     feedback:

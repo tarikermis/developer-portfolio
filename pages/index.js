@@ -9,71 +9,75 @@ const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() =>
-	import("../components/GithubProfileCard")
+  import("../components/GithubProfileCard")
 );
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 
 export default function Home({ githubProfileData }) {
-	return (
-		<div>
-			<SEO
-				data={{
-					title: 'Tarik "Fujin" Ermis | Full Stack Developer',
-					description:
-						"A passionate Full Stack Web Developer, Mobile App Developer and Blockchain Developer.",
-					image: "https://avatars.githubusercontent.com/u/31302793?v=4",
-					url: "https://fujin-solutions.com",
-					keywords: [
-						"Tarik",
-						"Tarik Ermis",
-						"@fujin74",
-						"fujin74",
-						"fujin",
-						"Portfolio",
-						"Tarik Portfolio ",
-						"Tarik Ermis Portfolio",
-						"web developer",
-						"full stack",
-						"full stack web developer",
-						"mobile app developer",
-						"android developer",
-						"blockchain developer",
-						"SEO",
-						"nuxt",
-						"vue.js",
-						"nodejs",
-						"expressjs",
-						"reactjs ",
-						"webshop",
-						"redux",
-						"react-native",
-					],
-				}}
-			/>
-			<Navigation />
-			<Greetings />
-			<Skills />
-			<Proficiency />
-			<Education />
-			<Experience />
-			<Feedbacks />
-			<Projects />
-			<GithubProfileCard prof={githubProfileData} />
-		</div>
-	);
+  return (
+    <div>
+      <SEO
+        data={{
+          title: "Tarik Ermis | Expert Full Stack & Blockchain Developer",
+          description:
+            "Tarik Ermis, a seasoned Full Stack Web Developer and Blockchain Expert, specializes in creating innovative web and mobile applications. Discover a portfolio showcasing a blend of technical expertise and creative solutions.",
+          image: "https://avatars.githubusercontent.com/u/31302793?v=4",
+          url: "https://tarik.n3tz.io",
+          keywords: [
+            "Tarik Ermis",
+            "Full Stack Developer",
+            "Blockchain Developer",
+            "Web Development",
+            "Mobile App Development",
+            "React.js",
+            "Vue.js",
+            "Node.js",
+            "Express.js",
+            "React Native",
+            "Solidity",
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "PHP",
+            "SEO",
+            "Web Applications",
+            "Mobile Applications",
+            "Webshop Development",
+            "Redux",
+            "Angular",
+            "Docker",
+            "AWS",
+            "Azure Developer",
+            "Firebase",
+            "Portfolio",
+          ],
+        }}
+      />
+
+      <Navigation />
+      <Greetings />
+      <Skills />
+      <Proficiency />
+      <Education />
+      <Experience />
+      <Feedbacks />
+      <Projects />
+      <GithubProfileCard prof={githubProfileData} />
+    </div>
+  );
 }
 
 Home.prototype = {
-	githubProfileData: PropTypes.object.isRequired,
+  githubProfileData: PropTypes.object.isRequired,
 };
 
 export async function getStaticProps(_) {
-	const githubProfileData = await fetch(
-		`https://api.github.com/users/${openSource.githubUserName}`
-	).then((res) => res.json());
+  const githubProfileData = await fetch(
+    `https://api.github.com/users/${openSource.githubUserName}`
+  ).then((res) => res.json());
 
-	return {
-		props: { githubProfileData },
-	};
+  return {
+    props: { githubProfileData },
+  };
 }
