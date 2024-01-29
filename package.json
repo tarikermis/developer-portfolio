@@ -1,45 +1,45 @@
 {
-	"name": "developer-portfolio",
-	"version": "1.0.1",
-	"description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
-	"main": "index.js",
-	"repository": "https://github.com/xfujin/developer-portfolio.git",
-	"author": "Tarik Ermis",
-	"license": "MIT",
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build && next export",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@apollo/client": "^3.3.21",
-		"@iconify/react": "^4.1.1",
-		"@next/eslint-plugin-next": "14.1.0",
-		"bootstrap": "^5.0.2",
-		"classnames": "^2.3.1",
-		"color-thief-react": "^2.1.0",
-		"colorthief": "^2.3.2",
-		"graphql": "^16.8.1",
-		"headroom.js": "^0.12.0",
-		"moment": "^2.29.1",
-		"next": "^14.1.0",
-		"nouislider": "^15.2.0",
-		"prop-types": "^15.7.2",
-		"react": "^18.2.0",
-		"react-datetime": "^3.0.4",
-		"react-dom": "18.2.0",
-		"react-easy-emoji": "^1.5.0",
-		"react-headroom": "^3.1.1",
-		"react-lottie": "^1.2.3",
-		"react-reveal": "^1.2.2",
-		"react-scripts": "^5.0.1",
-		"react-typist": "^2.0.5",
-		"reactstrap": "^9.2.2",
-		"sharp": "^0.33.2"
-	},
-	"devDependencies": {
-		"eslint": "8.56.0",
-		"eslint-config-next": "14.1.0"
-	}
+  "name": "developer-portfolio",
+  "version": "1.0.1",
+  "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
+  "main": "index.js",
+  "repository": "https://github.com/xfujin/developer-portfolio.git",
+  "author": "Tarik Ermis",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.21",
+    "@iconify/react": "^4.1.1",
+    "@next/eslint-plugin-next": "14.1.0",
+    "bootstrap": "^5.0.2",
+    "classnames": "^2.3.1",
+    "color-thief-react": "^2.1.0",
+    "colorthief": "^2.3.2",
+    "graphql": "^16.8.1",
+    "headroom.js": "^0.12.0",
+    "moment": "^2.29.1",
+    "next": "^14.1.0",
+    "nouislider": "^15.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "react-datetime": "^3.0.4",
+    "react-dom": "18.2.0",
+    "react-easy-emoji": "^1.5.0",
+    "react-headroom": "^3.1.1",
+    "react-lottie": "^1.2.3",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^5.0.1",
+    "react-typist": "^2.0.5",
+    "reactstrap": "^9.2.2",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0"
+  }
 }
