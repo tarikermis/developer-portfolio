@@ -3,10 +3,9 @@ import emoji from "react-easy-emoji";
 export const greetings = {
   name: "Tarik Ermis",
   title: "Hello, I'm Tarik",
-  subtitle:
-    "Co-Founder of n3tz | Full Stack Developer | Mobile App & Blockchain Expert",
+  subtitle: "Co-Founder of n3tz | Full Stack Developer | AI Expert & Pioneer",
   description:
-    "As the co-founder of n3tz and an experienced developer, I've honed my skills in building diverse applications across various domains. My expertise lies in JavaScript, React.js, Vue.js, Node.js, React Native, Solidity, Python, and a range of innovative libraries and frameworks. My journey is fueled by a passion for developing advanced digital solutions and leading teams to drive technological innovation.",
+    "As the co-founder of n3tz and an innovation-focused developer, I specialize in architecting cutting-edge prototypes and AI-driven solutions that transform futuristic concepts into production-ready applications. My expertise spans JavaScript, React.js, Vue.js, Node.js, React Native, Solidity, Python, n8n workflow automation, AI language models, and advanced machine learning frameworks. I'm passionate about pioneering next-generation technologies and leading cross-functional teams to deliver revolutionary digital transformation solutions for enterprise clients.",
   resumeLink: "https://techrez.io/resume/tarik-ermis",
 };
 
@@ -25,17 +24,21 @@ export const socialLinks = {
 export const skillsSection = {
   title: "What I offer",
   subTitle:
-    "Tackling Digital Challenges with Innovative Solutions. Whether it's a cutting-edge Webapp, a dynamic Webshop, a user-friendly Mobile App, or a robust Blockchain Solution, I am ready to bring your vision to life.",
+    "Pioneering Next-Generation Solutions with AI & Automation. From cutting-edge AI-driven prototypes to revolutionary workflow automation systems, I transform futuristic concepts into production-ready applications that define the future of digital innovation.",
   skills: [
-    "⚡ Crafting Interactive Full-Stack Applications, Mobile Apps & Webshops Customized to Your Specific Needs.",
+    "⚡ Architecting AI-Driven Prototypes & Automation Solutions using n8n, Machine Learning Frameworks, and Advanced Language Models.",
 
-    "⚡ Developing and Implementing Blockchain Applications with Advanced Smart-Contract Integration.",
+    "⚡ Developing Revolutionary Full-Stack Applications, Mobile Apps & Enterprise Solutions with Cutting-Edge Technologies.",
 
-    "⚡ Building Progressive Web Applications (PWAs) using both Traditional and Single Page Application (SPA) frameworks.",
-    "⚡ Seamless Integration of Third-Party Services like Azure, Firebase, AWS, and Digital Ocean.",
-    "⚡ Optimizing for Search Engines with Proven SEO Strategies.",
+    "⚡ Building Intelligent Workflow Systems that Transform Traditional Business Processes into Smart, Self-Optimizing Operations.",
 
-    "⚡ Providing Bespoke Solutions Tailored to Unique Requirements. Let's Discuss Your Project!",
+    "⚡ Implementing Blockchain Applications with Advanced Smart-Contract Integration and DeFi Protocol Development.",
+
+    "⚡ Creating Progressive Web Applications (PWAs) and Next-Gen Digital Solutions using Modern Frameworks and AI Integration.",
+
+    "⚡ Seamless Integration of Cloud Services, AI APIs, and Third-Party Platforms for Enterprise-Grade Scalability.",
+
+    "⚡ Delivering Game-Changing Innovation Projects that Bridge Futuristic Concepts with Production-Ready Implementations.",
   ],
 
   softwareSkills: [
@@ -205,6 +208,10 @@ export const skillsSection = {
 
 export const SkillBars = [
   {
+    Stack: "AI & Automation",
+    progressPercentage: "95",
+  },
+  {
     Stack: "Frontend/Design",
     progressPercentage: "100",
   },
@@ -215,6 +222,10 @@ export const SkillBars = [
   {
     Stack: "Programming",
     progressPercentage: "100",
+  },
+  {
+    Stack: "Innovation Prototyping",
+    progressPercentage: "95",
   },
   {
     Stack: "E-commerce",
@@ -246,89 +257,95 @@ export const educationInfo = [
 
 export const experience = [
   {
-      role: "Full Stack Developer",
-      company: "QUERPLEX GmbH",
-      companylogo: "/img/icons/common/querplex.png",
-      date: "Apr 2024 - Present",
-      location: "Munich, DE",
-      descBullets: [
-        "Rebuilt and developed a new, user-friendly web shop, which is used by millions of customers worldwide, enhancing the overall customer experience.",
-        "Conducted regular meetings with colleagues and external stakeholders to ensure alignment on project goals and deliverables.",
-        "Planned and developed front-end code using modern frameworks and technologies, ensuring a responsive and efficient user interface.",
-        "Implemented robust CI/CD pipelines to automate the software delivery process, reducing deployment times and improving software quality.",
-        "Played a key role in the development of their PWA podcast app, contributing to its success and widespread adoption.",
-      ],
-    },
-    {
-      role: "Lead Developer",
-      company: "elunic AG",
-      companylogo: "/img/icons/common/elunic.png",
-      date: "Apr 2023 - Mar 2024",
-      location: "Munich, DE",
-      descBullets: [
-        "Delivered 15 custom Angular/NestJS projects for medium-sized companies & enterprises, accelerating time-to-market by an average 3 weeks, leading to a 20% increase in client satisfaction.",
-        "Led custom product adaptations for 8 unique clients, boosting their revenue by 40% on average.",
-        "Navigated diverse client needs and mentored teams of up to 12 developers.",
-        "Implemented secure authentication and authorization mechanisms using OAuth2 in Keycloak, enhancing the security and user management of web applications.",
-        "Exceeded requirements by 20% for 70% of projects, optimizing resource allocation for efficient delivery.",
-        "Pioneered Architecture & DevOps with Docker, Kubernetes, Terraform & Azure, boosting solution scalability by 30% and enabling seamless, reliable deployments across diverse client environments.",
-      ],
-    },
-    {
-      role: "Lead Software Engineer",
-      company: "LendeXe Finance",
-      companylogo: "/img/icons/common/lendexe.png",
-      date: "Nov 2021 – Mar 2023",
-      location: "Blockchain",
-      descBullets: [
-        "Forked and significantly enhanced an existing lending protocol's Smart Contracts through strategic planning and crafting of audit-ready code.",
-        "This initiative landed a total value locked of $650,000 and secured a 20% market share in its niche within three months.",
-        "Strategically orchestrated the entire system architecture from scratch, making pivotal decisions for all system services and modules. This approach not only ensured a seamless and secure execution but also significantly enhanced system performance and scalability, contributing to the project's overall success.",
-        "Directed a team of five developers, surpassing coding milestones 15% ahead of schedule and improving sprint efficiency by 25%.",
-        "Implemented comprehensive automated tests for Smart Contracts and full-stack components, enhancing code quality and reliability.",
-        "Innovatively leveraged AWS cloud services for efficient code deployment and engineered a Python-based tool for NFT generation, contributing to enhanced system performance and the creation of over 5,000 unique NFTs.",
-      ],
-    },
-    {
-      role: "Software Engineer",
-      company: "Integr8 media GmbH",
-      companylogo: "/img/icons/common/integr8.webp",
-      date: "Aug 2021 – Mar 2022",
-      location: "Berlin, DE",
-      descBullets: [
-        "Developed pristine mobile applications using HTML, CSS, React Native & Firebase Functions.",
-        "Improved processes through automation for over 15 cloud applications on Microsoft Azure and AWS using Python, ensuring operational efficiency.",
-        "Created AI-driven chatbots using RASA/BotKit, handling over 10,000 monthly interactions at 95% accuracy.",
-        "Architected and implemented robust, integrated solutions for 17 full stack web applications, optimizing performance and efficiency using Vue.js, Nuxt.js, React.js, Next.js, oAuth2, Sitecore, Express.js, and MongoDB.",
-      ],
-    },
-    {
-      role: "Full Stack Web Developer",
-      company: "N4 Group Germany",
-      companylogo: "/img/icons/common/n4.jpg",
-      date: "Apr 2018 – Jul 2021",
-      location: "Saarbrücken, DE",
-      descBullets: [
-        "Developed responsive React.Js front-ends and robust Express.Js/Node.Js backends for 25 different projects.",
-        "Implemented comprehensive automated testing and deployment frameworks, resulting in a 40% reduction in development cycles.",
-        "Achieved a notable increase in development efficiency and team productivity by employing Kanban and agile methodologies.",
-      ],
-    },
-    {
-      role: "Apprentice Web Developer",
-      company: "SUMITS Deutschland GmbH",
-      companylogo: "/img/icons/common/sumits.jfif",
-      date: "Aug 2016 - Mar 2018",
-      location: "Saarbrücken, DE",
-      desc: "Managed the end-to-end process of developing over 50 websites using WordPress, from creation and design to deployment, including the development of custom plugins to enhance functionality.",
-    },
-  ];
+    role: "Full Stack Developer",
+    company: "QUERPLEX GmbH",
+    companylogo: "/img/icons/common/querplex.png",
+    date: "Apr 2024 - Present",
+    location: "Munich, DE",
+    descBullets: [
+      "Spearheaded multiple cutting-edge innovation projects utilizing next-generation technologies including n8n workflow automation, AI language models, and advanced machine learning frameworks for client prototype development.",
+      "Architected and developed revolutionary prototypes that bridge the gap between futuristic concepts and production-ready solutions, directly impacting millions of end-users worldwide.",
+      "Pioneered AI-driven automation solutions and intelligent workflow systems, transforming traditional business processes into smart, self-optimizing operations.",
+      "Engineered scalable prototype architectures using bleeding-edge tech stacks, enabling seamless transition from proof-of-concept to enterprise-grade production implementations.",
+      "Led cross-functional innovation teams in rapid prototyping cycles, delivering game-changing solutions that define the future of digital transformation for enterprise clients.",
+      "Delivered high-impact PWA solutions and next-gen web applications, setting new industry standards for performance and user experience optimization.",
+    ],
+  },
+  {
+    role: "Lead Developer",
+    company: "elunic AG",
+    companylogo: "/img/icons/common/elunic.png",
+    date: "Apr 2023 - Mar 2024",
+    location: "Munich, DE",
+    descBullets: [
+      "Delivered 15 custom Angular/NestJS projects for medium-sized companies & enterprises, accelerating time-to-market by an average 3 weeks, leading to a 20% increase in client satisfaction.",
+      "Led custom product adaptations for 8 unique clients, boosting their revenue by 40% on average.",
+      "Navigated diverse client needs and mentored teams of up to 12 developers.",
+      "Implemented secure authentication and authorization mechanisms using OAuth2 in Keycloak, enhancing the security and user management of web applications.",
+      "Exceeded requirements by 20% for 70% of projects, optimizing resource allocation for efficient delivery.",
+      "Pioneered Architecture & DevOps with Docker, Kubernetes, Terraform & Azure, boosting solution scalability by 30% and enabling seamless, reliable deployments across diverse client environments.",
+    ],
+  },
+  {
+    role: "Lead Software Engineer",
+    company: "LendeXe Finance",
+    companylogo: "/img/icons/common/lendexe.png",
+    date: "Nov 2021 – Mar 2023",
+    location: "Blockchain",
+    descBullets: [
+      "Forked and significantly enhanced an existing lending protocol's Smart Contracts through strategic planning and crafting of audit-ready code.",
+      "This initiative landed a total value locked of $650,000 and secured a 20% market share in its niche within three months.",
+      "Strategically orchestrated the entire system architecture from scratch, making pivotal decisions for all system services and modules. This approach not only ensured a seamless and secure execution but also significantly enhanced system performance and scalability, contributing to the project's overall success.",
+      "Directed a team of five developers, surpassing coding milestones 15% ahead of schedule and improving sprint efficiency by 25%.",
+      "Implemented comprehensive automated tests for Smart Contracts and full-stack components, enhancing code quality and reliability.",
+      "Innovatively leveraged AWS cloud services for efficient code deployment and engineered a Python-based tool for NFT generation, contributing to enhanced system performance and the creation of over 5,000 unique NFTs.",
+    ],
+  },
+  {
+    role: "Software Engineer",
+    company: "Integr8 media GmbH",
+    companylogo: "/img/icons/common/integr8.webp",
+    date: "Aug 2021 – Mar 2022",
+    location: "Berlin, DE",
+    descBullets: [
+      "Developed pristine mobile applications using HTML, CSS, React Native & Firebase Functions.",
+      "Improved processes through automation for over 15 cloud applications on Microsoft Azure and AWS using Python, ensuring operational efficiency.",
+      "Created AI-driven chatbots using RASA/BotKit, handling over 10,000 monthly interactions at 95% accuracy.",
+      "Architected and implemented robust, integrated solutions for 17 full stack web applications, optimizing performance and efficiency using Vue.js, Nuxt.js, React.js, Next.js, oAuth2, Sitecore, Express.js, and MongoDB.",
+    ],
+  },
+  {
+    role: "Full Stack Web Developer",
+    company: "N4 Group Germany",
+    companylogo: "/img/icons/common/n4.jpg",
+    date: "Apr 2018 – Jul 2021",
+    location: "Saarbrücken, DE",
+    descBullets: [
+      "Developed responsive React.Js front-ends and robust Express.Js/Node.Js backends for 25 different projects.",
+      "Implemented comprehensive automated testing and deployment frameworks, resulting in a 40% reduction in development cycles.",
+      "Achieved a notable increase in development efficiency and team productivity by employing Kanban and agile methodologies.",
+    ],
+  },
+  {
+    role: "Apprentice Web Developer",
+    company: "SUMITS Deutschland GmbH",
+    companylogo: "/img/icons/common/sumits.jfif",
+    date: "Aug 2016 - Mar 2018",
+    location: "Saarbrücken, DE",
+    desc: "Managed the end-to-end process of developing over 50 websites using WordPress, from creation and design to deployment, including the development of custom plugins to enhance functionality.",
+  },
+];
 
 export const projects = [
   {
     name: "LendeXe Finance",
     desc: "Web3 DeFi Lending Protocol on the IOTA Ecosystem.",
     link: "https://lendexe.fi/",
+  },
+  {
+    name: "EloHeaven | Gaming Services Platform",
+    desc: "Comprehensive gaming boosting platform supporting League of Legends, Valorant, and Marvel Rivals. Full-stack solution with secure payment processing, real-time order tracking, multi-language support, and sophisticated user dashboards.",
+    link: "https://eloheaven.gg/",
   },
   {
     name: "Statement Clo.",
@@ -353,6 +370,11 @@ export const projects = [
 ];
 
 export const feedbacks = [
+  {
+    name: "EloHeaven - CEO",
+    feedback:
+      "Working with Tarik on EloHeaven has been an exceptional experience. His deep understanding of gaming platforms and ability to deliver a comprehensive solution with secure payment processing, real-time tracking, and multi-language support exceeded our expectations. The sophisticated user dashboards he created for both customers and service providers have revolutionized our operations. Tarik's technical expertise and commitment to excellence made EloHeaven the leading gaming services platform it is today.",
+  },
   {
     name: "Statement Clo. - CEO",
     feedback:

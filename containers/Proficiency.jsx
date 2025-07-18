@@ -2,14 +2,19 @@ import React from "react";
 import { SkillBars } from "../portfolio";
 import { Container, Row, Progress, Col } from "reactstrap";
 
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 
 import GreetingLottie from "../components/DisplayLottie";
 
 const Proficiency = () => {
   return (
     <Container className="section section-lg">
-      <Fade bottom duration={1000} distance="40px">
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
         <Row>
           <Col lg="6">
             <h4 className="display-3">Proficiency</h4>
@@ -37,7 +42,7 @@ const Proficiency = () => {
             <GreetingLottie animationPath="/lottie/build.json" />
           </Col>
         </Row>
-      </Fade>
+      </motion.div>
     </Container>
   );
 };

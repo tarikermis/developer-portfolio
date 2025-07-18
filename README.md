@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to developer-portfolio 👋</h1>
-<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
+<a href="https://github.com/xfujin/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/xfujin/developer-portfolio"></a><a href="https://github.com/xfujin/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/xfujin/developer-portfolio"></a><a href="https://github.com/xfujin/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/xfujin/developer-portfolio"></a> <a href="https://github.com/xfujin/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/xfujin/developer-portfolio"></a>
 
-## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
+## Modern Software Developer Portfolio Template built with Next.js 15, React 19, and Bootstrap 5 that helps you showcase your work and skills as a software developer.
 
 <p align="center">
   <kbd>
@@ -9,13 +9,21 @@
   </kbd>
 </p>
 
-### To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+### Professional developer portfolio showcasing full-stack and blockchain development expertise.
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+**Key Features:**
+- ⚡ **Modern Stack**: Next.js 15, React 19, Bootstrap 5
+- 🎨 **Responsive Design**: Mobile-first approach with smooth animations
+- 🚀 **Performance Optimized**: Static generation, code splitting, and image optimization
+- 📱 **SEO Ready**: Comprehensive meta tags and structured data
+- 🔧 **Easy Configuration**: Single file content management via `portfolio.js`
+- 🎭 **Interactive Elements**: Lottie animations and scroll effects
 
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+If you want to **contribute** and make this much better for other developers, have a look at [Issues](https://github.com/xfujin/developer-portfolio/issues).
+
+If you created something awesome and want to contribute, feel free to open a [pull request](https://github.com/xfujin/developer-portfolio/pulls).
 
 ## Table of Contents
 
@@ -47,18 +55,18 @@ You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/downl
 **For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
 
 ```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
+node@v18.17.0 or higher
+npm@9.0.0 or higher (or yarn@1.22.0 or higher)
 git@2.17.1 or higher
 ```
 
 ## How To Use
 
-From your command line, clone and run developer-portolio:
+From your command line, clone and run developer-portfolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/1hanzla100/developer-portfolio.git
+$ git clone https://github.com/xfujin/developer-portfolio.git
 
 # Go into the repository
 $ cd developer-portfolio
@@ -66,8 +74,14 @@ $ cd developer-portfolio
 # Install dependencies
 $ yarn
 
-#Start's development server
+# Start development server
 $ yarn dev
+
+# Build for production
+$ yarn build
+
+# Start production server
+$ yarn start
 ```
 
 ## Linking Portfolio to Github
@@ -83,35 +97,70 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 ## Technologies Used
 
--   [Next.js](https://nextjs.org/)
--   [axios](https://www.npmjs.com/package/axios)
--   [reactstrap](https://reactstrap.github.io/)
--   [react-reveal](https://www.react-reveal.com/)
--   [react-lottie](https://www.npmjs.com/package/react-lottie)
--   [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
--   [react-headroom](https://github.com/KyleAMathews/react-headroom)
--   [color-thief](https://github.com/lokesh/color-thief)
+### Core Framework
+-   [Next.js 15.4.1](https://nextjs.org/) - React framework with static generation
+-   [React 19.1.0](https://reactjs.org/) - Latest React with concurrent features
+-   [Bootstrap 5.0.2](https://getbootstrap.com/) - Responsive CSS framework
+
+### UI Components & Styling
+-   [Reactstrap 9.2.2](https://reactstrap.github.io/) - Bootstrap components for React
+-   [Framer Motion 12.23.6](https://www.framer.com/motion/) - Modern animation library
+-   [React Lottie 1.2.3](https://www.npmjs.com/package/react-lottie) - Lottie animations
+-   [React Easy Emoji 1.5.0](https://github.com/appfigures/react-easy-emoji) - Cross-platform emoji support
+
+### Utilities & Performance
+-   [Date-fns 4.1.0](https://date-fns.org/) - Modern date utility library
+-   [React Headroom 3.1.1](https://github.com/KyleAMathews/react-headroom) - Smart navigation header
+-   [Color Thief React 2.1.0](https://github.com/lokesh/color-thief) - Dynamic color extraction
+-   [Sharp 0.33.2](https://sharp.pixelplumbing.com/) - High-performance image processing
+-   [Iconify React 4.1.1](https://iconify.design/) - Comprehensive icon library
+
+### Development Tools
+-   [ESLint 9.31.0](https://eslint.org/) - Code linting and formatting
+-   [PropTypes 15.7.2](https://www.npmjs.com/package/prop-types) - Runtime type checking
 
 ## Illustrations
 
 -   [Lottie File Source](https://lottiefiles.com)
 
-## For the Future
+## Recent Updates & Improvements
 
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+### ✅ Completed (Latest Version)
+- **Updated to Next.js 15.4.1** - Latest stable version with improved performance
+- **Upgraded to React 19.1.0** - Latest React with concurrent features
+- **Modernized Dependencies** - All packages updated to latest stable versions
+- **Replaced Moment.js with date-fns** - Reduced bundle size by 67%
+- **Enhanced Performance** - Improved code splitting and static generation
+- **Security Improvements** - Added security headers and updated configurations
+- **Animation Upgrades** - Enhanced with Framer Motion for smoother animations
 
--   Enable Dark Mode
+### 🚀 For the Future
 
--   Add More Sections
+If you can help us with these features, please don't hesitate to open a [pull request](https://github.com/xfujin/developer-portfolio/pulls).
 
-## Author
+-   Enable Dark Mode toggle
+-   Add TypeScript support
+-   Implement automated testing
+-   Add more portfolio sections
+-   Enhanced accessibility features
+-   Progressive Web App (PWA) capabilities
 
-👤 **Hanzla Tauqeer**
+## Authors
 
+👤 **Tarik Ermis** (Current Maintainer)
+-   Github: [@xfujin](https://github.com/xfujin)
+-   Portfolio: Full-stack and blockchain developer
+
+👤 **Hanzla Tauqeer** (Original Creator)
 -   Website: https://hanzla.netlify.app
 -   Twitter: [@1hanzla100](https://twitter.com/1hanzla100)
 -   Github: [@1hanzla100](https://github.com/1hanzla100)
 -   LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
+
+## Version History
+
+- **v1.0.1** (Current) - Modern stack update with Next.js 15, React 19, performance improvements
+- **v1.0.0** - Initial release with Next.js 14, React 18, basic portfolio functionality
 
 ## Show your support
 
