@@ -29,10 +29,7 @@ const Skills = () => {
                       className="icon icon-lg icon-shape shadow rounded-circle mb-5"
                       id={skill.skillName}
                     >
-                      <Icon
-                        icon={skill.fontAwesomeClassname}
-                        data-inline="false"
-                      ></Icon>
+                      <Icon icon={skill.fontAwesomeClassname} />
                     </div>
                     <UncontrolledTooltip
                       delay={0}

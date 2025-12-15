@@ -2,7 +2,12 @@ module.exports = {
   reactStrictMode: false, // Temporarily disabled due to SSR issues
   trailingSlash: true,
   images: {
-    domains: ["avatars.githubusercontent.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+      },
+    ],
   },
   // Security headers
   async headers() {
