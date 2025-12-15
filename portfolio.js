@@ -3,9 +3,10 @@ import emoji from "react-easy-emoji";
 export const greetings = {
   name: "Tarik Ermis",
   title: "Hello, I'm Tarik",
-  subtitle: "Co-Founder of n3tz | Full Stack Developer | AI Expert & Pioneer",
+  subtitle:
+    "AI/ML Engineer & Full Stack Developer | Building Intelligent Systems",
   description:
-    "As the co-founder of n3tz and an innovation-focused developer, I specialize in architecting cutting-edge prototypes and AI-driven solutions that transform futuristic concepts into production-ready applications. My expertise spans JavaScript, React.js, Vue.js, Node.js, React Native, Solidity, Python, n8n workflow automation, AI language models, and advanced machine learning frameworks. I'm passionate about pioneering next-generation technologies and leading cross-functional teams to deliver revolutionary digital transformation solutions for enterprise clients.",
+    "I architect enterprise-grade AI solutions using AWS Bedrock, RAG pipelines, and multi-agent orchestration systems. With expertise in LangChain, NLP, and conversational AI platforms, I transform complex business challenges into intelligent, production-ready applications. My full-stack proficiency spans React, Vue.js, Node.js, Python, and serverless AWS backends, complemented by blockchain/DeFi experience including smart contracts and Web3 integration. I lead cross-functional teams to deliver AI-powered digital transformation solutions that drive measurable business impact.",
   resumeLink: "https://techrez.io/resume/tarik-ermis",
 };
 
@@ -24,21 +25,19 @@ export const socialLinks = {
 export const skillsSection = {
   title: "What I offer",
   subTitle:
-    "Pioneering Next-Generation Solutions with AI & Automation. From cutting-edge AI-driven prototypes to revolutionary workflow automation systems, I transform futuristic concepts into production-ready applications that define the future of digital innovation.",
+    "AI/ML Engineer specializing in Enterprise AI Solutions, RAG Pipelines, and Multi-Agent Systems. I build intelligent applications that leverage cutting-edge LLM technologies to solve complex business challenges at scale.",
   skills: [
-    "⚡ Architecting AI-Driven Prototypes & Automation Solutions using n8n, Machine Learning Frameworks, and Advanced Language Models.",
+    "⚡ Building Enterprise AI Solutions with AWS Bedrock, RAG Pipelines, and Multi-Agent Orchestration Systems",
 
-    "⚡ Developing Revolutionary Full-Stack Applications, Mobile Apps & Enterprise Solutions with Cutting-Edge Technologies.",
+    "⚡ Architecting Conversational AI Platforms with Real-Time WebSocket Communication and Intent Classification",
 
-    "⚡ Building Intelligent Workflow Systems that Transform Traditional Business Processes into Smart, Self-Optimizing Operations.",
+    "⚡ Developing Full-Stack Applications with React, Vue.js, TypeScript, and Serverless AWS Backends",
 
-    "⚡ Implementing Blockchain Applications with Advanced Smart-Contract Integration and DeFi Protocol Development.",
+    "⚡ Implementing LLM-Powered Features including Document Intelligence, Semantic Search, and NLP Processing",
 
-    "⚡ Creating Progressive Web Applications (PWAs) and Next-Gen Digital Solutions using Modern Frameworks and AI Integration.",
+    "⚡ Creating Blockchain Applications with Smart Contracts, DeFi Protocols, and Web3 Integration",
 
-    "⚡ Seamless Integration of Cloud Services, AI APIs, and Third-Party Platforms for Enterprise-Grade Scalability.",
-
-    "⚡ Delivering Game-Changing Innovation Projects that Bridge Futuristic Concepts with Production-Ready Implementations.",
+    "⚡ Engineering Scalable Cloud Architectures with AWS Lambda, DynamoDB, Terraform, and Kubernetes",
   ],
 
   softwareSkills: [
@@ -209,7 +208,7 @@ export const skillsSection = {
 export const SkillBars = [
   {
     Stack: "AI & Automation",
-    progressPercentage: "95",
+    progressPercentage: "100",
   },
   {
     Stack: "Frontend/Design",
@@ -257,18 +256,16 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Full Stack Developer",
+    role: "Full Stack Developer & AI/ML Engineer",
     company: "QUERPLEX GmbH",
     companylogo: "/img/icons/common/querplex.png",
     date: "Apr 2024 - Present",
     location: "Munich, DE",
     descBullets: [
-      "Spearheaded multiple cutting-edge innovation projects utilizing next-generation technologies including n8n workflow automation, AI language models, and advanced machine learning frameworks for client prototype development.",
-      "Architected and developed revolutionary prototypes that bridge the gap between futuristic concepts and production-ready solutions, directly impacting millions of end-users worldwide.",
-      "Pioneered AI-driven automation solutions and intelligent workflow systems, transforming traditional business processes into smart, self-optimizing operations.",
-      "Engineered scalable prototype architectures using bleeding-edge tech stacks, enabling seamless transition from proof-of-concept to enterprise-grade production implementations.",
-      "Led cross-functional innovation teams in rapid prototyping cycles, delivering game-changing solutions that define the future of digital transformation for enterprise clients.",
-      "Delivered high-impact PWA solutions and next-gen web applications, setting new industry standards for performance and user experience optimization.",
+      "Architected enterprise AI document intelligence platform processing 10,000+ corporate governance documents with RAG pipelines, multi-agent orchestration, and automated tests.",
+      "Developed multi-agent conversational AI platforms with specialized agents (Conversation Router, Experience, Product, NBA, Fallback) for real-time customer interactions via WebSocket.",
+      "Built AI-powered personalized dashboard generation system using multi-agent architecture with persona-based content personalization.",
+      "Spearheaded frontend development for enterprise marketplace UI, delivering modern, scalable user interfaces for millions of end-users.",
     ],
   },
   {
@@ -278,12 +275,12 @@ export const experience = [
     date: "Apr 2023 - Mar 2024",
     location: "Munich, DE",
     descBullets: [
-      "Delivered 15 custom Angular/NestJS projects for medium-sized companies & enterprises, accelerating time-to-market by an average 3 weeks, leading to a 20% increase in client satisfaction.",
-      "Led custom product adaptations for 8 unique clients, boosting their revenue by 40% on average.",
-      "Navigated diverse client needs and mentored teams of up to 12 developers.",
-      "Implemented secure authentication and authorization mechanisms using OAuth2 in Keycloak, enhancing the security and user management of web applications.",
-      "Exceeded requirements by 20% for 70% of projects, optimizing resource allocation for efficient delivery.",
-      "Pioneered Architecture & DevOps with Docker, Kubernetes, Terraform & Azure, boosting solution scalability by 30% and enabling seamless, reliable deployments across diverse client environments.",
+      "Developed and adapted bespoke software solutions using Angular and NestJs, successfully meeting the unique requirements of over 7 clients.",
+      "Oversaw and directed numerous projects, concentrating on tailoring proprietary product to align with unique client requirements.",
+      "Led teams of up to 10 members, reviewed code, and directly interacted with clients.",
+      "Orchestrated full-stack development using Angular and NestJs, and streamlined deployment processes utilizing Docker, Kubernetes, Terraform, and Azure.",
+      "Developed enterprise-level PWA podcast application with offline capabilities and optimized performance.",
+      "Engineered full-stack solutions with React/Vue.js frontends and serverless AWS backends deployed via infrastructure-as-code.",
     ],
   },
   {
@@ -308,10 +305,11 @@ export const experience = [
     date: "Aug 2021 – Mar 2022",
     location: "Berlin, DE",
     descBullets: [
-      "Developed pristine mobile applications using HTML, CSS, React Native & Firebase Functions.",
-      "Improved processes through automation for over 15 cloud applications on Microsoft Azure and AWS using Python, ensuring operational efficiency.",
-      "Created AI-driven chatbots using RASA/BotKit, handling over 10,000 monthly interactions at 95% accuracy.",
-      "Architected and implemented robust, integrated solutions for 17 full stack web applications, optimizing performance and efficiency using Vue.js, Nuxt.js, React.js, Next.js, oAuth2, Sitecore, Express.js, and MongoDB.",
+      "Engineered AI-driven conversational chatbots using RASA/BotKit frameworks, achieving 95% intent classification accuracy and handling 10,000+ monthly user interactions across multiple enterprise clients.",
+      "Implemented NLP pipelines for intent recognition, entity extraction, and context management, significantly improving customer support automation and reducing response times by 60%.",
+      "Automated cloud infrastructure processes for 15+ applications on Microsoft Azure and AWS using Python, enhancing operational efficiency and reducing manual intervention by 70%.",
+      "Architected and delivered 17 full-stack web applications using Vue.js, Nuxt.js, React.js, Next.js, Express.js, and MongoDB with OAuth2 authentication and Sitecore CMS integration.",
+      "Developed cross-platform mobile applications using React Native and Firebase Functions, delivering seamless user experiences across iOS and Android platforms.",
     ],
   },
   {
@@ -408,6 +406,52 @@ export const projects = [
     ],
   },
 ];
+
+export const seo = {
+  title: "Tarik Ermis | AI/ML Engineer & Full Stack Developer",
+  description:
+    "AI/ML Engineer specializing in enterprise AI solutions, RAG pipelines, multi-agent systems, and conversational AI. Expert in AWS Bedrock, LangChain, NLP, React, Vue.js, Node.js, Python, and blockchain development.",
+  keywords: [
+    "AI Engineer",
+    "ML Engineer",
+    "Machine Learning Engineer",
+    "AWS Bedrock",
+    "RAG",
+    "Retrieval-Augmented Generation",
+    "LLM",
+    "Large Language Models",
+    "Multi-Agent Systems",
+    "Conversational AI",
+    "NLP",
+    "Natural Language Processing",
+    "LangChain",
+    "OpenAI",
+    "GPT",
+    "Full Stack Developer",
+    "React Developer",
+    "Vue.js Developer",
+    "Node.js Developer",
+    "Python Developer",
+    "TypeScript",
+    "AWS Lambda",
+    "Serverless",
+    "DynamoDB",
+    "Terraform",
+    "Kubernetes",
+    "Docker",
+    "Blockchain Developer",
+    "Smart Contracts",
+    "Solidity",
+    "DeFi",
+    "Web3",
+    "n8n Automation",
+    "RASA",
+    "Chatbot Development",
+    "Enterprise AI Solutions",
+    "Document Intelligence",
+    "Semantic Search",
+  ],
+};
 
 export const feedbacks = [
   {
