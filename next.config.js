@@ -1,6 +1,10 @@
 module.exports = {
-  reactStrictMode: false, // Temporarily disabled due to SSR issues
+  reactStrictMode: false,
   trailingSlash: true,
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+  },
   images: {
     remotePatterns: [
       {
