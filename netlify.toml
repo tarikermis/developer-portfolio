@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/imprint"
+  to = "https://n3tz.io/impressum/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/imprint/"
+  to = "https://n3tz.io/impressum/"
+  status = 301
+  force = true
