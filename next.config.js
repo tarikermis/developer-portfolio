@@ -16,6 +16,11 @@ module.exports = {
         destination: "https://n3tz.io/impressum/",
         permanent: true,
       },
+      {
+        source: "/imprint/",
+        destination: "https://n3tz.io/impressum/",
+        permanent: true,
+      },
     ];
   },
   // Security headers
