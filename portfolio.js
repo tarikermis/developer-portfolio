@@ -435,7 +435,7 @@ export const projects = [
 export const seo = {
   title: "Tarik Ermis | AI/ML Engineer & Full Stack Developer",
   description:
-    "AI/ML Engineer specializing in enterprise AI solutions, RAG pipelines, multi-agent systems, and conversational AI. Expert in AWS Bedrock, LangChain, NLP, React, Vue.js, Node.js, Python, and blockchain development.",
+    "AI/ML Engineer & Full Stack Developer from Saarland. Enterprise AI, RAG pipelines, multi-agent systems, and SaaS products. Co-Founder of n3tz.",
   keywords: [
     "AI Engineer",
     "ML Engineer",

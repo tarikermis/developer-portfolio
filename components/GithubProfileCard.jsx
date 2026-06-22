@@ -14,7 +14,7 @@ const GithubProfileCard = ({ prof }) => {
               <img
                 src={prof.avatar_url}
                 style={{ width: "200px" }}
-                alt=""
+                alt="Tarik Ermis — Software Architect & AI Engineer"
                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
               />
             </Col>
