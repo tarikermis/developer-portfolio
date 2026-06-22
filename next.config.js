@@ -9,6 +9,15 @@ module.exports = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/imprint",
+        destination: "https://n3tz.io/impressum/",
+        permanent: true,
+      },
+    ];
+  },
   // Security headers
   async headers() {
     return [

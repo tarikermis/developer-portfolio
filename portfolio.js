@@ -4,9 +4,9 @@ export const greetings = {
   name: "Tarik Ermis",
   title: "Hello, I'm Tarik",
   subtitle:
-    "AI/ML Engineer & Full Stack Developer | Building Intelligent Systems",
+    "Co-Founder of n3tz | Full Stack Developer | AI Expert & Pioneer",
   description:
-    "I architect enterprise-grade AI solutions using AWS Bedrock, RAG pipelines, and multi-agent orchestration systems. With expertise in LangChain, NLP, and conversational AI platforms, I transform complex business challenges into intelligent, production-ready applications. My full-stack proficiency spans React, Vue.js, Node.js, Python, and serverless AWS backends, complemented by blockchain/DeFi experience including smart contracts and Web3 integration. I lead cross-functional teams to deliver AI-powered digital transformation solutions that drive measurable business impact.",
+    "As the co-founder of n3tz and an innovation-focused developer, I specialize in architecting cutting-edge prototypes and AI-driven solutions that transform futuristic concepts into production-ready applications. My expertise spans JavaScript, React.js, Vue.js, Node.js, Python, AI language models, multi-agent architectures, and advanced machine learning frameworks. From enterprise AI platforms processing 10,000+ documents to self-hosted SaaS products with DSGVO-compliant voice agents — I build what others plan. Based in Saarland, serving the Greater Region and beyond.",
   resumeLink: "https://techrez.io/resume/tarik-ermis",
 };
 
@@ -256,16 +256,29 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: "Co-Founder & Software Architect",
+    company: "n3tz",
+    companylogo: "/img/icons/common/n3tz.png",
+    date: "Jan 2025 - Present",
+    location: "Völklingen, Saarland",
+    descBullets: [
+      "Built a full SaaS platform from zero: KI-Empfang (AI receptionist), KI-Telefonassistent (voice agent), online booking, e-invoicing (ZUGFeRD), and a real-time dashboard — self-hosted on Hetzner, DSGVO-konform.",
+      "Engineered a production voice agent with LiveKit Agents (Python), Azure Neural TTS, multi-language STT, and real-time SIP telephony integration — answering calls 24/7 for SMBs.",
+      "Developed the full infrastructure: Docker Compose on Hetzner, Caddy reverse proxy, Cloudflare CDN/DNS, self-hosted monitoring (GlitchTip + Uptime Kuma), automated Postgres backups to R2.",
+      "Built the Astro landing site scoring 100/100 on all Lighthouse categories with WebMCP agent integration, structured data (6 schema types), and multilingual SEO (DE/EN/FR).",
+    ],
+  },
+  {
     role: "Full Stack Developer & AI/ML Engineer",
     company: "QUERPLEX GmbH",
     companylogo: "/img/icons/common/querplex.png",
     date: "Apr 2024 - Present",
     location: "Munich, DE",
     descBullets: [
-      "Architected enterprise AI document intelligence platform processing 10,000+ corporate governance documents with RAG pipelines, multi-agent orchestration, and automated tests.",
-      "Developed multi-agent conversational AI platforms with specialized agents (Conversation Router, Experience, Product, NBA, Fallback) for real-time customer interactions via WebSocket.",
-      "Built AI-powered personalized dashboard generation system using multi-agent architecture with persona-based content personalization.",
-      "Spearheaded frontend development for enterprise marketplace UI, delivering modern, scalable user interfaces for millions of end-users.",
+      "Architected enterprise AI document intelligence platform processing 10,000+ corporate governance documents with RAG pipelines on AWS Bedrock, multi-agent orchestration (LangChain), OpenSearch vector store, and comprehensive automated test suites.",
+      "Developed multi-agent conversational AI platform for a major enterprise client: Conversation Router, Experience Agent, Product Agent, NBA Agent, and Fallback — real-time customer interactions via WebSocket, deployed on AWS with CloudFront CDN.",
+      "Built AI-powered personalized dashboard generation system using multi-agent architecture with Claude 3, persona-based content personalization, React 18 frontend with Framer Motion, and Terraform-managed infrastructure.",
+      "Spearheaded frontend development for enterprise marketplace UI serving millions of end-users — React, Vue.js, TypeScript, Material UI, with focus on scalability and enterprise architecture patterns.",
     ],
   },
   {
@@ -335,6 +348,18 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    name: "n3tz Empfang | AI Receptionist SaaS",
+    desc: "A full-stack SaaS platform I built from zero: KI-Telefonassistent (voice agent), KI-Chat (website widget), online booking, e-invoicing (ZUGFeRD), review management, and a real-time dashboard. Self-hosted on Hetzner, DSGVO-compliant, serving SMBs in the Saar-Lor-Lux region.",
+    link: "https://n3tz.io/empfang/",
+    achievements: [
+      "Engineered a production voice agent with LiveKit Agents (Python), Azure Neural TTS, multi-language STT (DE/EN/FR), and real-time SIP telephony — answering calls 24/7 autonomously",
+      "Built the complete infrastructure: Docker Compose on Hetzner, Caddy reverse proxy, Cloudflare CDN, self-hosted monitoring (GlitchTip + Uptime Kuma), automated Postgres backups to R2",
+      "Developed the Astro landing site scoring 100/100 on all Lighthouse categories with WebMCP browser-agent integration, 6 structured data schemas, and multilingual SEO",
+      "Created the real-time Next.js dashboard (Zentrale) with Socket.IO, push notifications, Stripe billing, Google Calendar sync, and ZUGFeRD e-invoicing",
+      "Built the embeddable chat widget (Empfang) with streaming AI responses, rate limiting, tenant isolation, and CORS-secured cross-origin embedding",
+    ],
+  },
   {
     name: "EloHeaven | Gaming Services Platform",
     desc: "A revolutionary gaming services platform supporting League of Legends, Valorant, and Marvel Rivals. I architected and developed this comprehensive solution from concept to production, establishing it as a leading platform in the competitive gaming industry.",
